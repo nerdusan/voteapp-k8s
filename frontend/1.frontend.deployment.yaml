@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: cloudacademy/frontend:v1
+        image: nerdusan/voteappfrontend:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
